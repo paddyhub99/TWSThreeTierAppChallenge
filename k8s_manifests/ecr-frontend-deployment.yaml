@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: 418637513885.dkr.ecr.us-east-1.amazonaws.com/ecr-frontend:replaceImageTag
+        image: 418637513885.dkr.ecr.us-east-1.amazonaws.com/ecr-frontend:2024-02-21_19-53-46
         imagePullPolicy: Always
         env:
           - name: REACT_APP_BACKEND_URL
